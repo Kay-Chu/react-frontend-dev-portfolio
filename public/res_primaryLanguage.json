@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Chu, Ka Ying. A passionate Software Engineer with a Diploma in Computer Studies (Canada) and a Bachelor's degree in Computing. With 1.5 years of part-time web development experience and 9 months as a Full-Time Software Engineer, I specialize in JavaScript and have in-depth expertise in React, including its core principles and performance optimization. Always eager to learn and build efficient, scalable solutions. Thanks for stopping by!",
+      "description": "👋 I'm Chu, Ka Ying. A passionate Software Engineer with a Diploma in Computer Studies (Canada) and a Bachelor's degree in Computing. With 1.5 years of part-time web development experience and 9 months as a Full-Time Software Engineer, I specialize in JavaScript and have in-depth expertise in React, including its core principles and performance optimization. I also like to explore various interesting and fun cutting-edge technologies. Thanks for stopping by!",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -13,10 +13,11 @@
       {
         "title": "3D Museum",
         "startDate": "2024",
-        "description": "A 3D website using React-Three-fiber, with AR and AI functions.",
+        "description": "A 3D website made with React-Three-fiber, with AR and AI features, for DIYing your own collectibles.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/animal-shelter/p1.png",
+          "images/portfolio/animal-shelter/p2.png",
+          "images/portfolio/animal-shelter/p3.png"
         ],
         "url": "",
         "technologies": [
@@ -36,8 +37,8 @@
         "startDate": "2023",
         "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/photography/p1.png",
+          "images/portfolio/photography/p2.png"
         ],
         "url": "https://github.com",
         "technologies": [
@@ -78,7 +79,7 @@
         "title": "Software Engineer",
         "years": "08.2024 - 04.2025",
         "mainTech": [
-          "Angular 8/9/10"
+          "ReactJS"
         ],
         "technologies": [
           "REST API",
@@ -94,7 +95,7 @@
         "title": "IT (Inter -> Part-time)",
         "years": "01.2022 - 05.2023",
         "mainTech": [
-          "Angular 7/8"
+          "WordPress"
         ],
         "technologies": [
           "WordPress",
