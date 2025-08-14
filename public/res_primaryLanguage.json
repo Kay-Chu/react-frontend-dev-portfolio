@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Chu, Ka Ying. A passionate Software Engineer with a Diploma in Computer Studies (Canada) and a Bachelor's degree in Computing. With 1.5 years of part-time web development experience and 9 months as a Full-Time Software Engineer, I specialize in JavaScript and have in-depth expertise in React, including its core principles and performance optimization. Always eager to learn and build efficient, scalable solutions. Thanks for stopping by!",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,9 +11,9 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "3D Museum",
+        "startDate": "2024",
+        "description": "A 3D website using React-Three-fiber, with AR and AI functions.",
         "images": [
           "images/portfolio/animal-shelter/p1.jpg",
           "images/portfolio/animal-shelter/p2.jpg"
@@ -21,22 +21,19 @@
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-original",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-nodejs-plain",
+            "name": "Node"
           }
+         
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
+        "title": "Pet Store",
+        "startDate": "2023",
         "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
         "images": [
           "images/portfolio/photography/p1.jpg",
@@ -55,8 +52,8 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
+        "title": "Health Assistant",
+        "startDate": "2023",
         "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
         "images": [
           "images/portfolio/adventure/p1.jpg",
@@ -71,47 +68,39 @@
           {
             "class": "devicon-typescript-plain",
             "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Capmi Technology",
+        "title": "Software Engineer",
+        "years": "08.2024 - 04.2025",
         "mainTech": [
           "Angular 8/9/10"
         ],
         "technologies": [
           "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "TypeScript",
+          "React.js",
+          "Node.js",
+          "Web Socket",
+          "React-Three-Fiber"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Money Generator Limited",
+        "title": "IT (Inter -> Part-time)",
+        "years": "01.2022 - 05.2023",
         "mainTech": [
           "Angular 7/8"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "WordPress",
+          "React.js",
+          "Vue.js",
+          "PHP"
         ]
       }
     ]
