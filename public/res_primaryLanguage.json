@@ -28,6 +28,10 @@
           {
             "class": "devicon-nodejs-plain",
             "name": "Node"
+          },
+          {
+            "class": "devicon-threejs-original",
+            "name": "ThreeJS"
           }
          
         ]
@@ -35,10 +39,13 @@
       {
         "title": "Pet Store",
         "startDate": "2023",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "description": "A complete management system, using PostgreSQL as the database. Features include user and administrator authentication, with administrators and users having different permissions, such as being able to view and delete user information and update pet lists. Users can search, add fav, comment, and like posts.",
         "images": [
           "images/portfolio/photography/p1.png",
-          "images/portfolio/photography/p2.png"
+          "images/portfolio/photography/p2.png",
+          "images/portfolio/photography/p3.png",
+          "images/portfolio/photography/p4.png",
+          "images/portfolio/photography/p5.png"
         ],
         "url": "https://github.com",
         "technologies": [
@@ -47,28 +54,39 @@
             "name": "React"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-nodejs-plain",
+            "name": "Node"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSql"
           }
         ]
       },
       {
         "title": "Health Assistant",
         "startDate": "2023",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "description": 
+        "This iOS app is developed in Swift. It features a built-in chatbot with a default avatar designed to resemble a campus health assistant, and an interactive map supporting automated navigation. The user authentication system powered by Firebase Authentication, allowing profile customization including photo uploads (stored in Firebase Storage).",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/adventure/p1.png",
+          "images/portfolio/adventure/p2.png",
+          "images/portfolio/adventure/p3.png",
+          "images/portfolio/adventure/p4.png"
         ],
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-swift-plain",
+            "name": "Swift"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-firebase-plain",
+            "name": "Firebase"
           }
         ]
       }
@@ -87,7 +105,8 @@
           "React.js",
           "Node.js",
           "Web Socket",
-          "React-Three-Fiber"
+          "React-Three-Fiber",
+          "Electron"
         ]
       },
       {
