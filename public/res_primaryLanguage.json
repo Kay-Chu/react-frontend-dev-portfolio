@@ -19,7 +19,7 @@
           "images/portfolio/animal-shelter/p2.png",
           "images/portfolio/animal-shelter/p3.png"
         ],
-        "url": "",
+        "url": "https://k-chu.com",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -47,7 +47,7 @@
           "images/portfolio/photography/p4.png",
           "images/portfolio/photography/p5.png"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
             "class": "devicon-react-original",
