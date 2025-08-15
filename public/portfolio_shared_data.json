@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Chu, Ka Ying (Elsie)",
-      "titles": [ "Developer"],
+      "titles": [ "Software Engineer"],
       "social": [
         {
           "name": "github",
@@ -13,6 +13,11 @@
     },
     "skills": {
       "icons": [
+        {
+          "name": "javaScript",
+          "class": "devicon-javascript-plain",
+          "level": "90"
+        },
         {
           "name": "TypeScript",
           "class": "devicon-typescript-plain",
@@ -31,6 +36,11 @@
         {
           "name": "NodeJS",
           "class": "devicon-nodejs-plain",
+          "level": "75"
+        },
+        {
+          "name": "Java",
+          "class": "devicon-java-plain",
           "level": "75"
         },
         {

@@ -14,6 +14,13 @@ class Experience extends Component {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
 
+        
+        const icons = [
+          <i className="fab fa-react experience-icon"></i>,
+          <i className="fab fa-wordpress experience-icon"></i>
+        ];
+        const icon = icons[i] || icons[0];
+
         var mainTech = mainTechnologies.map((technology, i) => {
           return (
             <Badge pill className="main-badge mr-2 mb-2" key={i}>
@@ -37,7 +44,7 @@ class Experience extends Component {
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-react experience-icon"></i>}
+            icon={icons[i]}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
@@ -58,6 +65,7 @@ class Experience extends Component {
             </h4>
             <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
           </VerticalTimelineElement>
+          
         );
       });
     }
