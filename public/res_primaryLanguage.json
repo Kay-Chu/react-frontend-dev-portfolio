@@ -5,10 +5,48 @@
       "section_name": {
         "about": "About me",
         "projects": "Projects",
+        "ui_projects": "UI/UX Projects",
         "skills": "Skills",
         "experience": "Experience"
       }
     },
+    "ui_projects": [{
+      "title": "Wireframe",
+      "image": [
+        "images/uiproject/figma/p1.png"
+      ]
+    },
+    {
+      "title": "User Journey",
+      "image": [
+        "images/uiproject/figma/p2.png"
+      ]
+    },
+    {
+      "title": "Prototype",
+      "image": [
+        "images/uiproject/bookstore/prototype.png"
+      ]
+    },
+    {
+      "title": "Web Design",
+      "image": [
+        "images/uiproject/dessertBar/p1.png"
+      ]
+    },
+    {
+      "title": "App Design",
+      "image": [
+        "images/uiproject/app/p1.png"
+      ]
+    },
+    {
+      "title": "Design System",
+      "image": [
+        "images/uiproject/jlpt/DesignSystem.png"
+      ]
+    }
+  ],
     "projects": [
       {
         "title": "3D Museum",
