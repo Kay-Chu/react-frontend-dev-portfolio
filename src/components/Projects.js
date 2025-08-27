@@ -7,16 +7,30 @@ class Projects extends Component {
     this.state = {
       deps: {},
       detailsModalShow: false,
+      showImgModal: false,
+      selectedImg: null
     };
 
     // Bind functions in constructor to avoid redefining them in render
     this.detailsModalShow = this.detailsModalShow.bind(this);
     this.detailsModalClose = this.detailsModalClose.bind(this);
 
+    // Image zoom-in-out
+    this.closeImgModal = this.closeImgModal.bind(this); // 
+    this.openImgModal = this.openImgModal.bind(this);   //
+
     // UI carousel ref and handlers
     this.uiCarouselRef = React.createRef();
     this.scrollUILeft = this.scrollUILeft.bind(this);
     this.scrollUIRight = this.scrollUIRight.bind(this);
+  }
+
+  openImgModal(img) {
+    this.setState({ showImgModal: true, selectedImg: img });
+  }
+
+  closeImgModal() {
+    this.setState({ showImgModal: false, selectedImg: null });
   }
 
   detailsModalShow(data) {
@@ -67,7 +81,8 @@ class Projects extends Component {
             alt={uiProject.title}
             height="230"
             width="300"
-            style={{ marginBottom: 0, paddingBottom: 0, position: "relative", borderRadius: 6 }}
+            style={{ marginBottom: 0, paddingBottom: 0, position: "relative", borderRadius: 6, cursor: "pointer" }}
+            onClick={() => this.openImgModal(img)}
           />
           <p className="project-title-settings" style={{ fontSize: "1.2rem", fontWeight: "bold", marginTop: 8 }}>
             {uiProject.title}
@@ -140,6 +155,32 @@ class Projects extends Component {
             >
               ‹
             </button>
+
+            {this.state.showImgModal && (
+              <div
+                onClick={this.closeImgModal}
+                style={{
+                  position: "fixed",
+                  top: 0,
+                  left: 0,
+                  width: "100vw",
+                  height: "100vh",
+                  background: "rgba(0,0,0,0.8)",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  zIndex: 9999,
+                  cursor: "zoom-out"
+                }}
+              >
+                <img
+                  src={this.state.selectedImg}
+                  alt="enlarged"
+                  style={{ maxWidth: "90%", maxHeight: "90%", borderRadius: 8 }}
+                />
+              </div>
+            )}
+
             <button
               aria-label="Scroll right"
               onClick={this.scrollUIRight}
