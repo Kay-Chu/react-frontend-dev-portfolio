@@ -67,13 +67,14 @@
         "startDate": "2023",
         "description": "A complete management system, using PostgreSQL as the database. Features include user and administrator authentication, with administrators and users having different permissions, such as being able to view and delete user information and update pet lists. Users can search, add fav, comment, and like posts.",
         "images": [
-          "images/portfolio/photography/p1.png",
-          "images/portfolio/photography/p2.png",
-          "images/portfolio/photography/p3.png",
-          "images/portfolio/photography/p4.png",
-          "images/portfolio/photography/p5.png"
+          "images/portfolio/pets/p1.png",
+          "images/portfolio/pets/p2.png",
+          "images/portfolio/pets/p3.png",
+          "images/portfolio/pets/p4.png",
+          "images/portfolio/pets/p5.png",
+          "images/portfolio/pets/p6.png"
         ],
-        "url": "https://www.youtube.com/watch?v=_Uj747TR9bg",
+        "url": "https://www.pets.k-chu.com",
         "technologies": [
           {
             "class": "devicon-react-original",
