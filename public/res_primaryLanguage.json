@@ -74,7 +74,7 @@
           "images/portfolio/pets/p5.png",
           "images/portfolio/pets/p6.png"
         ],
-        "url": "https://www.pets.k-chu.com",
+        "url": "https://pets.k-chu.com/",
         "technologies": [
           {
             "class": "devicon-react-original",
